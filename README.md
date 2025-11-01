@@ -1,16 +1,103 @@
-# React + Vite
+🧠 Frontdesk AI — Intelligent Virtual Frontdesk System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontdesk AI is an AI-powered virtual frontdesk assistant designed to automate interactions between users and supervisors.
+It combines real-time video conferencing, AI-driven chat automation, and role-based dashboards into one unified web platform.
 
-Currently, two official plugins are available:
+🚀 Features
+👥 Role-based System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Login: Ask questions and get instant AI-generated responses.
 
-## React Compiler
+Supervisor Login: Manage pending queries, provide manual answers, and monitor live sessions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💬 AI-Powered Interaction
 
-## Expanding the ESLint configuration
+Automatically answers user queries using a custom-trained AI model.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Forwards unresolved queries to supervisors in real-time.
+
+🎥 Live Meeting Integration
+
+Built-in Jitsi Meet integration for instant “Join Meeting” functionality.
+
+Both users and supervisors can join live video calls seamlessly.
+
+📊 Dynamic Dashboards
+
+Supervisors can view all pending and resolved requests.
+
+Real-time status updates every 5 seconds.
+
+💡 Smooth UI
+
+Modern, responsive interface built with React + Tailwind/CSS3 animations.
+
+Clean gradients, adaptive layout, and fade-in transitions.
+
+🧩 Tech Stack
+Layer	Technology
+Frontend	React.js (Vite)
+Backend	FastAPI / Node.js
+Database	PostgreSQL / MongoDB
+AI Layer	Custom NLP Model / OpenAI API
+Video SDK	Jitsi Meet API
+Styling	CSS3 / Flexbox / Animations
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/frontdesk-ai.git
+cd frontdesk-ai
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Configure Environment
+
+Create a .env file in the root directory:
+
+VITE_BACKEND_URL=http://localhost:8000
+
+4️⃣ Start the Development Server
+npm run dev
+
+
+Access the app at http://localhost:5173
+
+🖼️ Project Structure
+frontdesk-ai/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── components/
+│   └── assets/
+├── public/
+├── .env
+├── package.json
+└── README.md
+
+🌐 How It Works
+
+User selects login type (User / Supervisor).
+
+User can ask questions → AI responds automatically.
+
+If AI can’t answer → query sent to Supervisor.
+
+Supervisor can reply or join a live Jitsi meeting.
+
+Both roles can join the same live meeting room instantly.
+
+🧠 Future Enhancements
+
+Integrate advanced voice assistant support.
+
+Add analytics dashboard for supervisors.
+
+Multi-language model integration.
+
+Support for multiple meeting rooms.
+
+🧑‍💻 Developers
+
+Frontdesk AI Team - (Abhijeet)
+
+Built with ❤️ using React, AI APIs, and Jitsi SDK.
