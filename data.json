@@ -1,0 +1,86 @@
+{
+    "help_requests": [
+        {
+            "id": 1,
+            "caller_id": "user",
+            "question": "Do you offer spa",
+            "status": "resolved",
+            "answer": "yes we do",
+            "created_at": 1761570309.8862324,
+            "resolved_at": 1761570321.543266
+        },
+        {
+            "id": 2,
+            "caller_id": "user",
+            "question": "hii",
+            "status": "resolved",
+            "answer": "hlo sir",
+            "created_at": 1761570338.0898328,
+            "resolved_at": 1761570349.1679401
+        },
+        {
+            "id": 3,
+            "caller_id": "user",
+            "question": "Hi",
+            "status": "resolved",
+            "answer": "Hlo Sir",
+            "created_at": 1761570559.2137907,
+            "resolved_at": 1761570573.9992983
+        },
+        {
+            "id": 4,
+            "caller_id": "user",
+            "question": "who are you",
+            "status": "resolved",
+            "answer": "developer",
+            "created_at": 1761570678.7860255,
+            "resolved_at": 1761571692.6059217
+        },
+        {
+            "id": 5,
+            "caller_id": "user",
+            "question": "what is you name",
+            "status": "resolved",
+            "answer": "Abhijeet",
+            "created_at": 1761571640.6275828,
+            "resolved_at": 1761571678.7412047
+        },
+        {
+            "id": 6,
+            "caller_id": "user",
+            "question": "hlo",
+            "status": "resolved",
+            "answer": "Hii",
+            "created_at": 1761672208.3998225,
+            "resolved_at": 1761672239.5163314
+        },
+        {
+            "id": 7,
+            "caller_id": "user",
+            "question": "what is your name",
+            "status": "resolved",
+            "answer": "Abhijeet",
+            "created_at": 1761672271.5525603,
+            "resolved_at": 1761672286.1920965
+        },
+        {
+            "id": 8,
+            "caller_id": "user",
+            "question": "Hello",
+            "status": "resolved",
+            "answer": "Hii!! How are You.....",
+            "created_at": 1761989790.0466,
+            "resolved_at": 1761989811.5886557
+        }
+    ],
+    "knowledge_base": {
+        "do you offer spa": "yes we do",
+        "hii": "hlo sir",
+        "hi": "Hlo Sir",
+        "what is you name": "Abhijeet",
+        "who are you": "developer",
+        "hlo": "Hii",
+        "what is your name": "Abhijeet",
+        "hello": "Hii!! How are You....."
+    }
+}
